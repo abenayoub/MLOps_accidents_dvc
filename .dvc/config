@@ -1,5 +1,10 @@
 [core]
     analytics = false
-    remote = remote_storage
+    remote = remote_gdrive
 ['remote "remote_storage"']
     url = ../../dvc_remote
+['remote "remote_gdrive"']
+    url = gdrive://10yO8gCHwfKVqIBF-cAixmZQulFNScAf_
+    gdrive_acknowledge_abuse = true
+    gdrive_client_id = 115255894916-3cjescmd4i4dlc5ade63edpvugoss0j2.apps.googleusercontent.com
+    gdrive_client_secret = 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
